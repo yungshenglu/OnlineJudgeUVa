@@ -3,7 +3,7 @@
 using namespace std;
 
 /* Calculate the cycle length */
-long cycleLength(long n) {
+int cycleLength(int n) {
     if (n != 1) {
         return 1 + ((n % 2) ? cycleLength(3 * n + 1) : cycleLength(n / 2));
     } else {
@@ -12,10 +12,10 @@ long cycleLength(long n) {
 }
 
 int main(void) {
-    long i, j, min_i_j, max_i_j;
-    long max_length, term_length;
+    int i, j, min_i_j, max_i_j;
+    int max_length, term_length;
 
-    while (scanf("%ld %ld", &i, &j) != EOF) {
+    while (scanf("%d %d", &i, &j) != EOF) {
         max_length = 0;
 
         // Get the greatest and lowest value in i and j
@@ -29,7 +29,7 @@ int main(void) {
         }
 
         // Output results
-        printf("%ld %ld %ld\n", i, j, max_length);
+        printf("%d %d %d\n", i, j, max_length);
     }
 
     return 0;
