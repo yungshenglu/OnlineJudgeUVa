@@ -1,3 +1,5 @@
+/* Compile error */
+
 #include <stdio.h>
 
 #define MAX 1005
