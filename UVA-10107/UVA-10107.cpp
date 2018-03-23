@@ -14,7 +14,6 @@ int main(void) {
                 for (int j = top - 1; j > i; --j)
                     arr[j] = arr[j - 1];
                 arr[i] = tmp;
-                break;
             }
         }
         
