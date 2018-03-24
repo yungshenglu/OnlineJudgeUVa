@@ -1,3 +1,4 @@
+/* This code is accepted only in C++11 5.3.0 */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

@@ -2,4 +2,4 @@
 .vscode
 
 # object file
-./*/a.out
+.*/a.out
