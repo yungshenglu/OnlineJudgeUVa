@@ -2,8 +2,9 @@
 
 There is a bag-like data structure, supporting two operations:
 
-| 1 | x Throw an element x into the bag. |
+| Operation | Description |
 |---|---|
+| 1 | x Throw an element x into the bag. |
 | 2 | Take out an element from the bag. |
 
 Given a sequence of operations with return values, you’re going to guess the data structure. It is a stack (Last-In, First-Out), a queue (First-In, First-Out), a priority-queue (Always take out larger elements first) or something else that you can hardly imagine!
@@ -18,8 +19,9 @@ There are several test cases. Each test case begins with a line containing a sin
 
 For each test case, output one of the following:
 
-| stack | It’s definitely a stack. |
+| Data structure | Description |
 |---|---|
+| stack | It’s definitely a stack. |
 | queue | It’s definitely a queue. |
 | priority queue | It’s definitely a priority queue. |
 | impossible | It can’t be a stack, a queue or a priority queue. |
