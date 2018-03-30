@@ -1,4 +1,4 @@
-## UVA-10026 - Shoemaker’s problem
+# UVA-10026 - Shoemaker’s problem
 
 Shoemaker has N jobs (orders from customers) which he must make. Shoemaker can work on only one job in each day. For each i-th job, it is known the integer Ti (1 ≤ Ti ≤ 1000), the time in days it takes the shoemaker to finish the job. For each day of delay before starting to work for the i-th job, shoemaker must pay a fine of Si (1 ≤ Si ≤ 10000) cents. Your task is to help the shoemaker, writing a programm to find the sequence of jobs with minimal total fine.
 
