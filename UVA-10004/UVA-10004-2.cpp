@@ -8,7 +8,7 @@
 
 using namespace std;
 
-vector< int > connection[MAX];
+vector< int > toPoint[MAX];
 
 // Using BFS to traversal all the point and coloring
 bool BFS(int start) {
@@ -21,7 +21,7 @@ bool BFS(int start) {
         int curr = que.front();
         que.pop();
 
-        for (int &next : connection[curr]) {
+        for (int &next : toPoint[curr]) {
             if (!isVisited[next]) {
                 // Push the next point into queue as been vidited
                 que.push(next);
@@ -47,8 +47,8 @@ int main(void) {
         // End of input
         if (T == 0) break;
 
-        // Initialize connection vector to store the new case
-        for(auto &vec : connection)
+        // Initialize toPoint vector to store the new case
+        for (auto &vec : toPoint)
             vec.clear();
 
         scanf("%d", &I);
@@ -56,8 +56,8 @@ int main(void) {
         int p1, p2;
         for (int i = 0; i < I; ++i) {
             scanf("%d %d", &p1, &p2);
-            connection[p1].push_back(p2);
-            connection[p2].push_back(p1);
+            toPoint[p1].push_back(p2);
+            toPoint[p2].push_back(p1);
         }
 
         // Print the result
