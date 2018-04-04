@@ -43,12 +43,10 @@ int main(void) {
             }
 
             // Print the result
-            if( isHappy ){
+            if (isHappy)
                 printf("Case #%d: %d is a Happy number.\n", i, N);
-            }
-            else {
+            else
                 printf("Case #%d: %d is an Unhappy number.\n", i, N);
-            }
         }
     }
 
