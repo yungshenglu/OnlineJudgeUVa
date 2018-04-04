@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Get the sum of square of each digits
 int squareSum(int n) {
     int sum = 0;
 
