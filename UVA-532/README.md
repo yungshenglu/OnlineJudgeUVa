@@ -49,7 +49,7 @@ S##
 ```
 
 ---
-##Sample Output
+## Sample Output
 
 ```
 Escaped in 11 minute(s).
