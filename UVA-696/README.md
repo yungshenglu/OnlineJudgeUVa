@@ -2,8 +2,8 @@
 
 The knight is a piece used in chess, a game played on a board with squares arranged in rows and columns. A knight attacks pieces that are either (a) two rows and one column away from its position, or (b) one row and two columns away from its position. The following diagram illustrates this. The square marked N represents the position of the knight, and the squares marked X indicate the squares that are under attack.
 
+|:---:|:---:|:---:|:---:|:---:|
 | | X | | X | |
-|---|---|---|---|---|
 | X | | | | X |
 | | | N | | |
 | X | | | | X |
