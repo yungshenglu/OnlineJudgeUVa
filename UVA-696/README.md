@@ -1,6 +1,6 @@
 # UVA-696 - How Many Knights
 
-The knight is a piece used in chess, a game played on a board with squares arranged in rows and columns. A knight attacks pieces that are either (a) two rows and one column away from its position, or (b) one row and two columns away from its position. The following diagram illustrates this. The square marked N represents the position of the knight, and the squares marked X indicate the squares that are under attack.
+The knight is a piece used in chess, a game played on a board with squares arranged in rows and columns. A knight attacks pieces that are either (a) two rows and one column away from its position, or (b) one row and two columns away from its position. The following diagram illustrates this. The square marked N represents the position of the knight, and the squares marked `X` indicate the squares that are under attack.
 
 |:---:|:---:|:---:|:---:|:---:|
 | | X | | X | |
@@ -9,12 +9,12 @@ The knight is a piece used in chess, a game played on a board with squares arran
 | X | | | | X |
 | | X | | X | |
 
-In this problem you are to determine the largest number of knights that can be placed on a board with M rows and N columns so that no knight is attacking any other. M and N will each be no larger than 500.
+In this problem you are to determine the largest number of knights that can be placed on a board with $M$ rows and $N$ columns so that no knight is attacking any other. $M$ and $N$ will each be no larger than 500.
 
 ---
 ## Input
 
-The input consists of pairs of integers giving values for M and N, followed by a pair of zeroes.
+The input consists of pairs of integers giving values for $M$ and $N$, followed by a pair of zeroes.
 
 ---
 ## Output

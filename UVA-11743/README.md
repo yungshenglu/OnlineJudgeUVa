@@ -7,19 +7,20 @@ One popular checksum algorithm is the Luhn algorithm, which can detect any singl
 3. If the total ends in a 0, the credit card number is valid, and it is invalid otherwise.
 For example, using the number 5181 2710 9900 0012:
 1. Double the appropriate digits (5181 2710 9900 0012) to obtain the values: 10, 16, 4, 2, 18, 0, 0, 2.
-2. Add up the digits of these values to get (1 + 0) + (1 + 6) + 4 + 2 + (1 + 8) + 0 + 0 + 2 = 25. The sum of the undoubled digits is 1 + 1 + 7 + 0 + 9 + 0 + 0 + 2 = 20, so the total is 20 + 25 = 45.
+2. Add up the digits of these values to get $(1 + 0) + (1 + 6) + 4 + 2 + (1 + 8) + 0 + 0 + 2 = 25
+$. The sum of the undoubled digits is $1 + 1 + 7 + 0 + 9 + 0 + 0 + 2 = 20$, so the total is $20 + 25 = 45$.
 3. 45 does not end in a 0, so this credit card number is invalid.
 For this problem, you must write a program that checks the validity of credit card numbers according to the Luhn algorithm.
 
 ---
 ## Input
 
-The input begins with a number N on a single line, followed by N lines each containing a single credit card number. Each credit card number consists of 16 decimal digits in groups of four separated by single spaces.
+The input begins with a number $N$ on a single line, followed by $N$ lines each containing a single credit card number. Each credit card number consists of 16 decimal digits in groups of four separated by single spaces.
 
 ---
 ## Output
 
-The output consists of one line for each input credit card number. If the credit card number is valid, this line consists of the string "Valid", otherwise it reads "Invalid".
+The output consists of one line for each input credit card number. If the credit card number is valid, this line consists of the string `Valid`, otherwise it reads `Invalid`.
 
 ---
 ## Sample Input

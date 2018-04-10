@@ -10,7 +10,7 @@ Recently some of her new online customers complained about the electronic bills.
 ---
 ## Input
 
-The first line of the input consists of two integers L and N (0 ≤ L ≤ 20, 1 ≤ N ≤ 100). The following L lines contain the description of the irregular words and their plural form. Each line consists of two words separated by a space character, where the first word is the singular, the second word the plural form of some irregular word. After the list of irregular words, the following N lines contain one word each, which you have to make plural. You may assume that each word consists of at most 20 lowercase letters from the english alphabet ("a" to "z").
+The first line of the input consists of two integers $L$ and $N$ ($0 \le L \le 20$, $1 \le N \le 100$). The following $L$ lines contain the description of the irregular words and their plural form. Each line consists of two words separated by a space character, where the first word is the singular, the second word the plural form of some irregular word. After the list of irregular words, the following $N$ lines contain one word each, which you have to make plural. You may assume that each word consists of at most 20 lowercase letters from the english alphabet ("a" to "z").
 
 ---
 ## Output

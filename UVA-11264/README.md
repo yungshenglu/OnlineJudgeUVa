@@ -1,6 +1,6 @@
 # UVA-11264 - Coin Collector
 
-Our dear Sultan is visiting a country where there are n different types of coin. He wants to collect as many different types of coin as you can. Now if he wants to withdraw $X$ amount of money from a Bank, the Bank will give him this money using following algorithm.
+Our dear Sultan is visiting a country where there are $n$ different types of coin. He wants to collect as many different types of coin as you can. Now if he wants to withdraw $X$ amount of money from a Bank, the Bank will give him this money using following algorithm.
 
 ```
 withdraw(X) {

@@ -10,7 +10,7 @@ Input consists of up to 100,000 dictionary entries, followed by a blank line, fo
 ---
 ## Output
 
-Output is the message translated to English, one word per line. Foreign words not in the dictionary should be translated as "eh".
+Output is the message translated to English, one word per line. Foreign words not in the dictionary should be translated as `eh`.
 
 ---
 ## Sample Input

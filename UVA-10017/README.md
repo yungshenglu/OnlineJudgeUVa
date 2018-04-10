@@ -11,19 +11,19 @@ Your job will be to write a program which will show a copy of the puzzle on the 
 
 **TIP:**
 It is well known and rather easy to prove that the minimum number of moves needed to complete
-the puzzle with n disks is 2^(n − 1).
+the puzzle with $n$ disks is $2^{n − 1}$.
 
 ---
 ## Input
 
-The input file will consist of a series of lines. Each line will contain two integers n, m. n, lying within the range [1, 250], will denote the number of disks and m, belonging to [0, 2^(n − 1)], will be the number of the last move, you may assume that m will also be less than 2^16, and you may also assume that a good algorithm will always have enough time. The file will end at a line formed by two zeros.
+The input file will consist of a series of lines. Each line will contain two integers $n$, $m$. $n$, lying within the range $[1, 250]$, will denote the number of disks and $m$, belonging to $[0, 2^{n − 1}]$, will be the number of the last move, you may assume that $m$ will also be less than $2^16$, and you may also assume that a good algorithm will always have enough time. The file will end at a line formed by two zeros.
 
 ---
 ## Output
 
 The output will consist again of a series of lines, formatted as show below.
 **NOTES:**
-* There are 3 spaces between de ‘=>’ and the first number printed. If there isn’t any number, there should be no spaces.
+* There are 3 spaces between de `=>` and the first number printed. If there isn’t any number, there should be no spaces.
 * All the disks in a single peg are printed in a single line (not as in the Problem #1 below).
 * Print a blank line after every problem.
 

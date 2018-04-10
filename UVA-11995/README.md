@@ -12,7 +12,7 @@ Given a sequence of operations with return values, you’re going to guess the d
 ---
 ## Input
 
-There are several test cases. Each test case begins with a line containing a single integer n (1 ≤ n ≤ 1,000). Each of the next n lines is either a type-1 command, or an integer 2 followed by an integer x. That means after executing a type-2 command, we get an element x without error. The value of x is always a positive integer not larger than 100. The input is terminated by end-of-file (EOF).
+There are several test cases. Each test case begins with a line containing a single integer $n$ ($1 \le n \le 1,000$). Each of the next $n$ lines is either a type-1 command, or an integer 2 followed by an integer $x$. That means after executing a type-2 command, we get an element $x$ without error. The value of $x$ is always a positive integer not larger than 100. The input is terminated by end-of-file (EOF).
 
 ---
 ## Output

@@ -6,7 +6,7 @@ Australian ballots require that the voter rank the candidates in order of choice
 ## Input
 
 The input begins with a single positive integer on a line by itself indicating the number of the cases following, each of them as described below. This line is followed by a blank line, and there is also a blank line between two consecutive inputs.
-The first line of input is an integer n ≤ 20 indicating the number of candidates. The next n lines consist of the names of the candidates in order. Names may be up to 80 characters in length and may contain any printable characters. Up to 1000 lines follow; each contains the contents of a ballot. That is, each contains the numbers from 1 to n in some order. The first number indicates the candidate of first choice; the second number indicates candidate of second choice, and so on.
+The first line of input is an integer $n \le 20$ indicating the number of candidates. The next $n$ lines consist of the names of the candidates in order. Names may be up to 80 characters in length and may contain any printable characters. Up to 1,000 lines follow; each contains the contents of a ballot. That is, each contains the numbers from 1 to $n$ in some order. The first number indicates the candidate of first choice; the second number indicates candidate of second choice, and so on.
 
 ---
 ## Output

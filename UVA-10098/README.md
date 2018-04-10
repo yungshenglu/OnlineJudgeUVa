@@ -5,7 +5,7 @@ Generating permutation has always been an important problem in computer science.
 ---
 ## Input
 
-The first line of the input contains an integer n, which indicates how many strings to follow. The next n lines contain n strings. Strings will only contain alpha numerals and never contain any space. The maximum length of the string is 10.
+The first line of the input contains an integer $n$, which indicates how many strings to follow. The next $n$ lines contain $n$ strings. Strings will only contain alpha numerals and never contain any space. The maximum length of the string is 10.
 
 ---
 ## Output

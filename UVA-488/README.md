@@ -11,7 +11,7 @@ The input begins with a single positive integer on a line by itself indicating t
 ---
 ## Output
 
-For each test case, the output must follow the description below. The outputs of two consecutive cases will be separated by a blank line. For the output of your program, you will be printing wave forms each separated by a blank line. The total number of wave forms equals the Frequency, and the horizontal “height” of each wave equals the Amplitude. The Amplitude will never be greater than nine. The waveform itself should be filled with integers on each line which indicate the “height” of that line.
+For each test case, the output must follow the description below. The outputs of two consecutive cases will be separated by a blank line. For the output of your program, you will be printing wave forms each separated by a blank line. The total number of wave forms equals the Frequency, and the horizontal "height" of each wave equals the Amplitude. The Amplitude will never be greater than nine. The waveform itself should be filled with integers on each line which indicate the “height” of that line.
 
 **NOTE:** There is a blank line after each separate waveform, **excluding** the last one.
 

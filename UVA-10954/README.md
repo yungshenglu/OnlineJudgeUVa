@@ -11,7 +11,7 @@ I hope you have understood already your mission, to add a set of integers so tha
 ---
 ## Input
 
-Each test case will start with a positive number, N (2 ≤ N ≤ 5,000) followed by N positive integers (all are less than 100,000). Input is terminated by a case where the value of N is zero. This case should not be processed.
+Each test case will start with a positive number, $N$ ($2 \le N \le 5,000$) followed by $N$ positive integers (all are less than 100,000). Input is terminated by a case where the value of $N$ is zero. This case should not be processed.
 
 ---
 ## Output

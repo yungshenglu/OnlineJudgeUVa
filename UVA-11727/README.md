@@ -5,7 +5,7 @@ Company XYZ have been badly hit by recession and is taking a lot of cost cutting
 ---
 ## Input
 
-The first line of input is an integer T (T < 20) that indicates the number of test cases. Each case consists of a line with 3 distinct positive integers. These 3 integers represent the salaries of the three employees. All these integers will be in the range [1000, 10000].
+The first line of input is an integer $T$ ($T < 20$) that indicates the number of test cases. Each case consists of a line with 3 distinct positive integers. These 3 integers represent the salaries of the three employees. All these integers will be in the range $[1000, 10000]$.
 
 ---
 ## Output
