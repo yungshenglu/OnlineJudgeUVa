@@ -4,48 +4,28 @@
 using namespace std;
 
 int main(void) {
-    int T, N;
+    int T, N, currNum, digit;
 
     while (scanf("%d", &T) != EOF) {
         for (int t = 0; t < T; ++t) {
             scanf("%d", &N);
 
-            for (int i = 0; i <= 9; ++i) {
-                int value = N, digit = 1, number = 0, last = 0;
+            int count[10] = { 0 };
+            for (int i = 1; i <= N; ++i) {
+                currNum = i;
 
-                while (value > 0) {
-                    // Calculate number of 0
-                    if (i == 0) {
-                        if (value % 10 == i)
-                            number += ((value / 10 - 1) * digit + last + 1);
-                        else
-                            number += ((value / 10) * digit);
-                    }
-                    // Calculate number of 1 to 9
-                    else {
-                        if (value % 10 < i) {
-                            number += ((value / 10) * digit);
-                        }
-                        else if (value % 10 == i) {
-                            number += ((value / 10) * digit + last + 1);
-                        }
-                        else {
-                            number += ((value / 10 + 1) * digit);
-                        }
-                    }
-
-                    // Get to the next digit in each iteration
-                    last += (value % 10) * digit;
-                    value /= 10;
-                    digit *= 10;
+                // Count the number of each digit in current number
+                while (currNum != 0) {
+                    digit = currNum % 10;
+                    ++count[digit];
+                    currNum /= 10;
                 }
-
-                // Print the result
-                if (i > 0)
-                    printf(" ");
-                printf("%d", number);
             }
 
+            // Print the result
+            printf("%d", count[0]);
+            for (int i = 1; i < 10; ++i)
+                printf(" %d", count[i]);
             printf("\n");
         }
     }
