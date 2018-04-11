@@ -6,7 +6,7 @@ In this sequence, 0 appears once, 1 appears 6 times, 2 appears 2 times, 3 appear
 ---
 ## Input
 
-The input file consists of several data sets. The first line of the input file contains the number of data sets which is a positive integer and is not bigger than 20. The following lines describe the data sets. For each test case, there is one single line containing the number $$N$$.
+The input file consists of several data sets. The first line of the input file contains the number of data sets which is a positive integer and is not bigger than 20. The following lines describe the data sets. For each test case, there is one single line containing the number $N$.
 
 ---
 ## Output
