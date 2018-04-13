@@ -4,7 +4,7 @@ A. C. Marcos is taking his first steps in the direction of jingle composition. H
 
 ![](https://i.imgur.com/AjvHWy9.png)
 
-The duration of a measure is the sum of the durations of its notes. In Marcos’ jingles, each measure has the same duration. As Marcos is just a beginner, his famous teacher Johann Sebastian III taught him that the duration of a measure must always be $$1$$. For example, Marcos wrote a composition containing five measures, of which the first four have the correct duration and the last one is wrong. In the example below, each measure is surrounded with slashes and each note is represented as in the table above.
+The duration of a measure is the sum of the durations of its notes. In Marcos’ jingles, each measure has the same duration. As Marcos is just a beginner, his famous teacher Johann Sebastian III taught him that the duration of a measure must always be $1$. For example, Marcos wrote a composition containing five measures, of which the first four have the correct duration and the last one is wrong. In the example below, each measure is surrounded with slashes and each note is represented as in the table above.
 
 ```
 /HH/QQQQ/XXXTXTEQH/W/HW/
@@ -15,7 +15,7 @@ Marcos likes computers as much as music. He wants you to write a program that de
 ---
 ## Input
 
-The input contains several test cases. Each test case is described in a single line containing a string whose length is between $$3$$ and $$200$$ characters, inclusive, representing a composition. A composition begins and ends with a slash `/`. Measures in a composition are separated by a slash `/`. Each note in a measure is represented by the corresponding uppercase letter, as described above. You may assume that each composition contains at least one measure and that each measure contains at least one note.
+The input contains several test cases. Each test case is described in a single line containing a string whose length is between $3$ and $200$ characters, inclusive, representing a composition. A composition begins and ends with a slash `/`. Measures in a composition are separated by a slash `/`. Each note in a measure is represented by the corresponding uppercase letter, as described above. You may assume that each composition contains at least one measure and that each measure contains at least one note.
 All characters in the input will be either slashes or one of the seven uppercase letters used to represent notes, as described above. The last test case is followed by a line containing a single asterisk.
 
 ---
