@@ -1,32 +1,31 @@
 #include <cstdio>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
 
 int main(void) {
-    int T, N;
+    int T, N, position;
+    vector< int > shop;
 
     while (scanf("%d", &T) != EOF) {
 
         // Compare the current store's position with max and min positon
         for (int t = 0; t < T; ++t) {
-            int minPosition = 100, maxPosition = -1, position;
-            
+            shop.clear();
+
             scanf("%d", &N);
             for (int i = 0; i < N; ++i) {
                 scanf("%d", &position);
-
-                // Update the current max position
-                if (position > maxPosition)
-                    maxPosition = position;
-                
-                // Update the current min position
-                if (position < minPosition)
-                    minPosition = position;
+                shop.push_back(position);
             }
 
-             // Print the result
-            printf("%d\n", (maxPosition - minPosition) * 2);
+            // Sort the position of shop
+            sort(shop.begin(), shop.end());
+
+            // Print the result
+            printf("%d\n", (shop[N - 1] - shop[0]) * 2);
         }
     }
 
