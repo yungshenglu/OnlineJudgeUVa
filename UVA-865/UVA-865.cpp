@@ -1,3 +1,4 @@
+/* This code is accepted only in C++11 5.3.0 */
 #include <cstdio>
 #include <cstring>
 #include <iostream>
@@ -15,11 +16,12 @@ int main(void) {
     while (scanf("%d", &T) != EOF) {
         // Pass the next-line character
         getchar();
+        getchar();
 
         for (int t = 0; t < T; ++t) {
             dictionary.clear();
-            scanf("%s", plaintext);
-            scanf("%s", substitution);
+            gets(plaintext);
+            gets(substitution);
 
             // Print the substitutiion text and plaintext 
             printf("%s\n%s\n", substitution, plaintext);
@@ -38,7 +40,7 @@ int main(void) {
             }
 
             // Print a next-line character if it is last case
-            if (t == T - 1)
+            if (t < T - 1)
                 printf("\n");
         }
     }
