@@ -1,6 +1,6 @@
 # UVA-11401 - Triangle Counting
 
-You are given n rods of length $1$, $2$, ..., $n$. You have to pick any $3$ of them and build a triangle. How many distinct triangles can you make? Note that, two triangles will be considered different if they have at least $1$ pair of arms with different length.
+You are given $n$ rods of length $1$, $2$, ..., $n$. You have to pick any $3$ of them and build a triangle. How many distinct triangles can you make? Note that, two triangles will be considered different if they have at least $1$ pair of arms with different length.
 
 ![](https://i.imgur.com/fzzqXbU.png)
 
