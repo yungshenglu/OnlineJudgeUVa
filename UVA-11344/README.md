@@ -2,7 +2,7 @@
 
 Your girlfriend Marry has some problems with programming task teacher gave her. Since you have the great programming skills it won’t be a problem for you to help her. And certainly you don’t want Marry to have her time spent on this task because you were planning to go to the cinema with her this weekend. If you accomplish this task Marry will be very grateful and will definitely go with you to the cinema and maybe even more. So it’s up to you now.
 That’s the task she was given:
-Number $0 \le M \le 10^1000$ is given, and a set $S$ of different numbers from the interval $[1;12]$. All numbers in this set are integers. Number $M$ is said to be wonderful if it is divisible by all numbers in set $S$. Find out whether or not number $M$ is wonderful.
+Number $0 \le M \le 10^{1000}$ is given, and a set $S$ of different numbers from the interval $[1;12]$. All numbers in this set are integers. Number $M$ is said to be wonderful if it is divisible by all numbers in set $S$. Find out whether or not number $M$ is wonderful.
 
 ---
 ## Input

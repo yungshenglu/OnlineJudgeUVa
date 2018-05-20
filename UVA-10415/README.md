@@ -1,6 +1,6 @@
 # UVA-10415 - Eb Alto Saxophone Player
 
-Do you like saxophone? I have a Eb Alto Saxophone, shown on the right. My fingers move A LOT when playing some music, and I’m quite interested in how many times each finger PRESS the button. Assume that the music is composed of only 8 kinds of note. They are: C D E F G A B in one octave and C D E F G A B in a higher octave. We use c, d, e, f, g, a, b, C, D, E, F, G, A, B to represent them. The fingers I use for each note are:
+Do you like saxophone? I have a Eb Alto Saxophone, shown on the right. My fingers move A LOT when playing some music, and I’m quite interested in how many times each finger PRESS the button. Assume that the music is composed of only $8$ kinds of note. They are: C D E F G A B in one octave and C D E F G A B in a higher octave. We use c, d, e, f, g, a, b, C, D, E, F, G, A, B to represent them. The fingers I use for each note are:
 * c: finger 2∼4, 7∼10
 * d: finger 2∼4, 7∼9
 * e: finger 2∼4, 7, 8
@@ -15,7 +15,9 @@ Do you like saxophone? I have a Eb Alto Saxophone, shown on the right. My finger
 * G: finger 1∼4
 * A: finger 1∼3
 * B: finger 1∼2
+
 (Note that every finger is controlling a specified button, different fingers are controlling different buttons.)
+
 Write a program to help count the number of times each finger presses the button. A finger presses a button if it is needed in a note, but not used in the last note. Also, if it is the first note, every finger required presses the button.
 
 ---
@@ -26,8 +28,7 @@ The first line of the input is a single integer $t$ ($1 \le t \le 1000$), indica
 ---
 ## Output
 
-For each test case, print $10$ numbers indicating the number of presses for each finger. Numbers are
-separated by a single space.
+For each test case, print $10$ numbers indicating the number of presses for each finger. Numbers are separated by a single space.
 
 ---
 ## Sample Input
