@@ -1,4 +1,4 @@
-# UVA-11942 - 
+# UVA-11942 - Lumberjack Sequencing
 
 Another tale of lumberjacks?. Let see . . .
 The lumberjacks are rude, bearded workers, while foremen tend to be bossy and simpleminded. The foremen like to harass the lumberjacks by making them line up in groups of ten, ordered by the length of their beards. The lumberjacks, being of different physical heights, vary their arrangements to confuse the foremen. Therefore, the foremen must actually measure the beards in centimeters to see if everyone is lined up in order.
