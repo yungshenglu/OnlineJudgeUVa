@@ -6,7 +6,7 @@ Is an escape possible? If yes, how long will it take?
 ---
 ## Input
 
-The input file consists of a number of dungeons. Each dungeon description starts with a line containing three integers $L$, $R$ and $C$` (all limited to 30 in size).
+The input file consists of a number of dungeons. Each dungeon description starts with a line containing three integers $L$, $R$ and $C$ (all limited to $30$ in size).
 * $L$ is the number of levels making up the dungeon.
 * $R$ and $C$ are the number of rows and columns making up the plan of each level.
 Then there will follow $L$ blocks of $R$ lines each containing $C$ characters. Each character describes one cell of the dungeon. A cell full of rock is indicated by a `#` and empty cells are represented by a `.`. Your starting position is indicated by `S` and the exit by the letter `E`. There’s a single blank line after each level. Input is terminated by three zeroes for $L$, $R$ and $C$.
