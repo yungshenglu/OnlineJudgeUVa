@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <iostream>
+#include <stack>
 
 #define MAX 25
 

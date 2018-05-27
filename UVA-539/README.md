@@ -12,7 +12,7 @@ Compared to the original game, we will solve a simplified problem here: You are 
 ---
 ## Input
 
-The input file will contain one or more test cases. The first line of each test case contains two integers: the number of nodes $n$ ($2 \le n \le 25$) and the number of edges $m$ ($1 \le m \le 25$). The next $m$ lines describe the $m$ edges. Each edge is given by the numbers of the two nodes connected by it. Nodes are numbered from $0$ to $n − 1$. Edges are undirected. Nodes have degrees of three or less. The network is not neccessarily connected. Input will be terminated by two values of 0 for $n$ and $m$.
+The input file will contain one or more test cases. The first line of each test case contains two integers: the number of nodes $n$ ($2 \le n \le 25$) and the number of edges $m$ ($1 \le m \le 25$). The next $m$ lines describe the $m$ edges. Each edge is given by the numbers of the two nodes connected by it. Nodes are numbered from $0$ to $n − 1$. Edges are undirected. Nodes have degrees of three or less. The network is not neccessarily connected. Input will be terminated by two values of $0$ for $n$ and $m$.
 
 ---
 ## Output
