@@ -30,6 +30,7 @@ The output format is shown as sample below. Each row represents a series of circ
 Case 1:
 1 4 3 2 5 6
 1 6 5 2 3 4
+
 Case 2:
 1 2 3 8 5 6 7 4
 1 2 5 8 3 4 7 6
