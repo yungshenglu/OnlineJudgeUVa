@@ -1,4 +1,4 @@
-# UVA-12019 Doom’s Day Algorithm
+# UVA-12019 - Doom’s Day Algorithm
 
 No. Doom’s day algorithm is not a method to compute which day the world will end. It is an algorithm created by the mathematician John Horton Conway, to calculate which day of the week (Monday, Tuesday, etc.) corresponds to a certain date.
 This algorithm is based in the idea of the **doomsday**, a certain day of the week which always occurs in the same dates. For example, 4/4 (the 4th of April), 6/6 (the 6th of June), 8/8 (the 8th of August), 10/10 (the 10th of October) and 12/12 (the 12th of December) are dates which always occur in doomsday. All years have their own doomsday.
