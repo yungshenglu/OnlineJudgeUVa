@@ -1,4 +1,4 @@
-# UVA-913 Joana and the Odd Numbers
+# UVA-913 - Joana and the Odd Numbers
 
 Joana loves playing with odd numbers. In the other day, she started writing, in each line, an odd number of odd numbers. It looked as follows:
 
