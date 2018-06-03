@@ -6,7 +6,7 @@ For remainder value of negative numbers follow the rule of C programming languag
 ---
 ## Input
 
-The input file contains $20$ sets of inputs. Each set starts with two integers $N$ ($0 < N \le 10000$) and $M$ ($0 < M \le 10000$) which denotes how many numbers are within this set. Each of the next N lines contains one number each. These numbers should all fit in 32-bit signed integer. Input is terminated by a line containing two zeroes.
+The input file contains $20$ sets of inputs. Each set starts with two integers $N$ ($0 < N \le 10000$) and $M$ ($0 < M \le 10000$) which denotes how many numbers are within this set. Each of the next $N$ lines contains one number each. These numbers should all fit in 32-bit signed integer. Input is terminated by a line containing two zeroes.
 
 ---
 ## Output
