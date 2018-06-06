@@ -6,7 +6,7 @@ digits of $Q$ is equal $N$.
 ---
 ## Input
 
-The first line of input contains one positive integer number, which is the number of data sets. Each subsequent line contains one data set which consists of one non-negative integer number $N$ ($0 \le N \le 109$).
+The first line of input contains one positive integer number, which is the number of data sets. Each subsequent line contains one data set which consists of one non-negative integer number $N$ ($0 \le N \le 10^9$).
 
 ---
 ## Output

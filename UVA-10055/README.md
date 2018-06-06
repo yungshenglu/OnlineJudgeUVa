@@ -5,7 +5,7 @@ Hashmat is a brave warrior who with his group of young soldiers moves from one p
 ---
 ## Input
 
-The input contains two numbers in every line. These two numbers in each line denotes the number soldiers in Hashmat’s army and his opponent’s army or vice versa. The input numbers are not greater than $2^32$. Input is terminated by `End of File`.
+The input contains two numbers in every line. These two numbers in each line denotes the number soldiers in Hashmat’s army and his opponent’s army or vice versa. The input numbers are not greater than $2^{32}$. Input is terminated by `End of File`.
 
 ---
 ## Output
