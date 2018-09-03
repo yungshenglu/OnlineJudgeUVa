@@ -1,0 +1,42 @@
+# UVA-11624 - Fire!
+
+Joe works in a maze. Unfortunately, portions of the maze have caught on fire, and the owner of the maze neglected to create a fire escape plan. Help Joe escape the maze. Given Joe’s location in the maze and which squares of the maze are on fire, you must determine whether Joe can exit the maze before the fire reaches him, and how fast he can do it. Joe and the fire each move one square per minute, vertically or horizontally (not diagonally). The fire spreads all four directions from each square that is on fire. Joe may exit the maze from any square that borders the edge of the maze. Neither Joe nor the fire may enter a square that is occupied by a wall.
+
+---
+## Input
+
+The first line of input contains a single integer, the number of test cases to follow. The first line of each test case contains the two integers $R$ and $C$, separated by spaces, with $1 \le R, C \le 1000$. The following $R$ lines of the test case each contain one row of the maze. Each of these lines contains exactly $C$ characters, and each of these characters is one of:
+* `#`, a wall
+* `.`, a passable square
+* `J`, Joe’s initial position in the maze, which is a passable square
+* `F`, a square that is on fire
+There will be exactly one `J` in each test case.
+
+---
+## Output
+
+For each test case, output a single line containing `IMPOSSIBLE` if Joe cannot exit the maze before the fire reaches him, or an integer giving the earliest time Joe can safely exit the maze, in minutes.
+
+---
+## Sample Input
+
+```
+2
+4 4
+####
+#JF#
+#..#
+#..#
+3 3
+###
+#J.
+#.F
+```
+
+---
+## Sample Output
+
+```
+3
+IMPOSSIBLE
+```
