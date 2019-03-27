@@ -1,4 +1,4 @@
-# Online Judge UVa
+# UVa Online Judge
 
 ![](res/uva.png)
 
